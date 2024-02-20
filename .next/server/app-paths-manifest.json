@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/whoweare/page": "app/whoweare/page.js",
+  "/privatetours/page": "app/privatetours/page.js",
+  "/partnerwithus/page": "app/partnerwithus/page.js",
+  "/contact/page": "app/contact/page.js"
+}
