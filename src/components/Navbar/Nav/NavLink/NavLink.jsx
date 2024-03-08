@@ -6,7 +6,6 @@ const NavLink = ({ link }) => {
   return (
     <div className="w-full">
       <Link
-        target="_blank"
         href={link.path}
         className={`${
           pathname == link.path

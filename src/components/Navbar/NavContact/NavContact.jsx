@@ -15,6 +15,7 @@ const NavContact = () => {
       <div className="nav-content-contact-information">
         <a
           className="nav-content-contact-information-items "
+          target="_blank"
           href="tel:+905382162785"
         >
           <FaPhone />
@@ -22,6 +23,7 @@ const NavContact = () => {
         </a>
         <a
           className="nav-content-contact-information-items "
+          target="_blank"
           href="mailto:info@fadastravel.com"
         >
           <IoMdMail />
@@ -29,6 +31,7 @@ const NavContact = () => {
         </a>
         <a
           className="nav-content-contact-information-items "
+          target="_blank"
           href="https://maps.app.goo.gl/WN3uSwyaWeAnLozp7"
         >
           <FaLocationDot />
@@ -41,6 +44,7 @@ const NavContact = () => {
       <div className="flex items-center gap-5 ">
         <a
           href="http://wa.me/+905382162785"
+          target="_blank"
           className="nav-content-social-media-information-items"
         >
           <FaWhatsapp />
@@ -53,18 +57,21 @@ const NavContact = () => {
         </a>
         <a
           href="https://www.youtube.com/channel/UCUblskJ-DnRU9qyvye8JS3Q"
+          target="_blank"
           className="nav-content-social-media-information-items"
         >
           <FaYoutube />
         </a>
         <a
           href="https://www.instagram.com/fadastravel/"
+          target="_blank"
           className="nav-content-social-media-information-items"
         >
           <FaInstagram />
         </a>
         <a
           href="https://www.linkedin.com/company/fadas-travel-health-tourism/"
+          target="_blank"
           className="nav-content-social-media-information-items"
         >
           <FaLinkedin />
