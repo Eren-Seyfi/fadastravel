@@ -12,10 +12,13 @@
     "path": "/privatetours"
   },
   {
+    "name": "Custom Tours",
+    "path": "/activityguideform/customitinerary"
+  },
+  {
     "name": "Partner With Us",
     "path": "/partnerwithus"
   },
-
   {
     "name": "Contact",
     "path": "/contact"
