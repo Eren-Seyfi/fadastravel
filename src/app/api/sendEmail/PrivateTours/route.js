@@ -21,7 +21,7 @@ export async function POST(req) {
     const mailOptions = {
       from: "fadastourism@gmail.com",
       to: "info@fadastravel.com",
-      subject: "Private Tours",
+      subject: TurName,
       html: `
         <p>Tur Name: ${TurName}</p>
         <p>First Name: ${FirstName}</p>
