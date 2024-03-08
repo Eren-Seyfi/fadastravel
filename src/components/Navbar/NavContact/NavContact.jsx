@@ -51,6 +51,7 @@ const NavContact = () => {
         </a>
         <a
           href="https://www.facebook.com/fadastravel"
+          target="_blank"
           className="nav-content-social-media-information-items"
         >
           <FaFacebook />
