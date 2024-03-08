@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { useCountries } from "use-react-countries";
 import {
   Input,
@@ -12,8 +12,27 @@ import {
 
 const PhoneNumber = ({ props }) => {
   const { countries } = useCountries();
-  const [country, setCountry] = React.useState(50);
-  const { name, flags, countryCallingCode } = countries[country];
+  const defaultCountryIndex = 50;
+  const [country, setCountry] = React.useState(defaultCountryIndex);
+  const {
+    name: selectedCountryName,
+    flags,
+    countryCallingCode,
+  } = countries[country];
+
+  // Ülke değiştiğinde state'i güncelle
+  const handleCountryChange = (index) => {
+    setCountry(index);
+    // Ülke kodu ve ismini prop'a ile
+    props.setCountry(
+      countries[index].name + countries[index].countryCallingCode
+    );
+  };
+
+  // Varsayılan ülke ismini ve kodunu prop'a gönder
+  useEffect(() => {
+    props.setCountry(selectedCountryName + countryCallingCode);
+  }, [selectedCountryName, countryCallingCode, props.setCountry]);
 
   return (
     <div className="relative flex w-full">
@@ -27,7 +46,7 @@ const PhoneNumber = ({ props }) => {
           >
             <img
               src={flags.svg}
-              alt={name}
+              alt={selectedCountryName}
               className="h-4 w-4 rounded-full object-cover"
             />
             {countryCallingCode}
@@ -40,7 +59,7 @@ const PhoneNumber = ({ props }) => {
                 key={name}
                 value={name}
                 className="flex items-center gap-2"
-                onClick={() => setCountry(index)}
+                onClick={() => handleCountryChange(index)}
               >
                 <img
                   src={flags.svg}
@@ -54,6 +73,8 @@ const PhoneNumber = ({ props }) => {
         </MenuList>
       </Menu>
       <Input
+        value={props.value}
+        onChange={(e) => props.setValue(e.target.value)}
         type="tel"
         name="phone"
         required={props.required}
@@ -69,4 +90,5 @@ const PhoneNumber = ({ props }) => {
     </div>
   );
 };
+
 export default PhoneNumber;

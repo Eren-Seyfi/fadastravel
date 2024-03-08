@@ -1,7 +1,5 @@
 "use client";
-
 import { Navigation, A11y } from "swiper/modules";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,9 +11,9 @@ const ToursCarousel = ({ items }) => {
       navigation
       pagination={{ clickable: true }}
       spaceBetween={15}
-      slidesPerView={3}
       loop={true}
       style={{ "--swiper-navigation-color": "white" }}
+      breakpoints={{ 768: { slidesPerView: 3 }, 576: { slidesPerView: 1 } }}
     >
       {items[3].map((data, index) => {
         return (

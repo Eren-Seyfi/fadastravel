@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 import {
   Input,
@@ -11,23 +10,26 @@ import { DayPicker } from "react-day-picker";
 import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/outline";
 
 export default function DataInput({ props }) {
-  const [date, setDate] = useState();
+  const [date, setDate] = useState(props.value ? new Date(props.value) : null);
+
+  const handleDateChange = (selectedDate) => {
+    setDate(selectedDate);
+    if (props.setData) {
+      props.setData(format(selectedDate, "PPP"));
+    }
+  };
 
   return (
     <div className="w-full">
       <Popover placement="bottom">
         <PopoverHandler>
-          <Input
-            label={props.label}
-            onChange={() => null}
-            value={date ? format(date, "PPP") : ""}
-          />
+          <Input label={props.label} value={date ? format(date, "PPP") : ""} />
         </PopoverHandler>
         <PopoverContent>
           <DayPicker
             mode="single"
             selected={date}
-            onSelect={setDate}
+            onSelect={handleDateChange}
             showOutsideDays
             className="border-0"
             classNames={{
