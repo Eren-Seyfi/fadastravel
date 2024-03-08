@@ -1,0 +1,111 @@
+[
+  {
+    "Headers": "4 DAYS CAPPADOCIA",
+    "Content": "Explore Cappadocia’s unique landscape and heritage on this 4-day tour. Stay in our own luxury hotel with fairy-chimney and hot air balloon views. Enjoy guided tours of the Göreme Open-Air Museum, take a local pottery lesson in Avanos, and savor the regional cuisine in a Turkish Dance Show. Fall under the spell of Cappadocia’s beauty during this unforgettable journey."
+  },
+
+  [
+    {
+      "id": 1,
+      "title": "Day 1: Cappadocia",
+      "list": [
+        "Arrive at Istanbul airport",
+        "Take a domestic flight from Istanbul to Cappadocia",
+        "Get on a VIP transfer from Cappadocia airport to your hotel",
+        "Have a smooth check-in at your luxury hotel",
+        "Choose between free time or an optional activity",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Mak’s Cave House or similar"],
+      "IncludedMeals": ["Welcome appetizers at hotel"],
+      "IncludedActivity": [],
+      "AddOnActivities": ["Turkish Bath (Hamam) - 50 euros / person"]
+    },
+    {
+      "id": 2,
+      "title": "Day 2: Cappadocia",
+      "list": [
+        "Join a Hot Air Balloon Tour (optional)",
+        "Enjoy breakfast at your hotel",
+        "Start a Cappadocia tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Mak’s Cave House or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Cappadocia Tour"],
+      "AddOnActivities": [
+        "Hot Air Balloon Tour - please ask our special price",
+        "Sunset Jeep Safari - 40 euros / person"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Day 3: Cappadocia",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Choose between free time or an optional activity",
+        "Join a Turkish Night Show with dinner and unlimited drinks",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Mak’s Cave House or similar"],
+      "IncludedMeals": ["Breakfast and Dinner"],
+      "IncludedActivity": ["Turkish Night"],
+      "AddOnActivities": [
+        "Sunset ATV/QUAD - 40 euros / person",
+        "Sunset Horseback Riding - 40 euros / person",
+        "Professional Photo Shooting with Balloons and Landscape - 300 euros"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Day 4: Cappadocia",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Get on a VIP transfer from your hotel to Cappadocia airport",
+        "Take a domestic flight from Cappadocia to Istanbul airport",
+        "Depart to your next destination"
+      ],
+      "LuxuryAccomodations": [],
+      "IncludedMeals": ["Breakfast"],
+      "IncludedActivity": [],
+      "AddOnActivities": []
+    }
+  ],
+
+  [
+    ["Mak’s Cave House or similar (Cappadocia)"],
+    [
+      "All VIP Airport Transfers (Mercedes Vito)",
+      "Activity Transfers in Private Vehicle",
+      "Domestic Flights from and to Cappadocia"
+    ],
+    ["Turkish Night Show with Dinner & Drinks", "Guided Cappadocia Tour"],
+    ["3 Breakfasts, 1 Lunches, 1 Dinner"],
+    [
+      [
+        { "Head": "" },
+        [
+          "Hot Air Balloon Tour - please ask price",
+          "Sunset Jeep Safari - 40 euros / person",
+          "Sunset ATV/QUAD - 40 euros / person",
+          "Sunset Horseback Riding - 40 euros / person",
+          "Turkish Bath (Hamam) - 50 euros / person",
+          "Professional Photo Shooting with Balloons and Landscape - 300 euros"
+        ]
+      ]
+    ]
+  ],
+
+  [
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/1.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/2.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/3.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/4.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/5.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/6.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/7.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/8.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/9.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-CAPPADOCIA/10.webp"
+  ]
+]

@@ -15,31 +15,34 @@ const NavContact = () => {
       <div className="nav-content-contact-information">
         <a
           className="nav-content-contact-information-items "
-          href="tel:+902038420214201440"
+          href="tel:+905382162785"
         >
           <FaPhone />
-          <span>+90 384 214 1440</span>
+          <span className="text-xs font-poppins">+90 538 216 2785</span>
         </a>
         <a
           className="nav-content-contact-information-items "
           href="mailto:info@fadastravel.com"
         >
           <IoMdMail />
-          <span>info@fadastravel.com</span>
+          <span className="text-xs font-poppins">info@fadastravel.com</span>
         </a>
         <a
           className="nav-content-contact-information-items "
-          href="https://www.google.com/maps/place/Fadas+Travel/@38.628916,34.803883,15z/data=!4m2!3m1!1s0x0:0xa6e35f4a3d3e1fce?sa=X&ved=2ahUKEwjF4_SkudKCAxWxbvEDHU9yB6IQ_BJ6BAg8EAA"
+          href="https://maps.app.goo.gl/WN3uSwyaWeAnLozp7"
         >
           <FaLocationDot />
-          <span>
+          <span className="text-xs font-poppins">
             Yukarı Mahalle, Fatih Caddesi, No:11 BC Uçhisar/Nevşehir/Türkiye
           </span>
         </a>
       </div>
       {/* Sosyalmeda Bilgileri */}
-      <div className="flex items-center gap-5">
-        <a href="http://wa.me/+905382162785" className="nav-content-social-media-information-items">
+      <div className="flex items-center gap-5 ">
+        <a
+          href="http://wa.me/+905382162785"
+          className="nav-content-social-media-information-items"
+        >
           <FaWhatsapp />
         </a>
         <a

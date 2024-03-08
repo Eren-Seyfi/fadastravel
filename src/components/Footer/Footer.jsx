@@ -1,5 +1,5 @@
 import FooterContact from "./FooterContact/FooterContact";
-import Image from "next/image";
+
 const Footer = () => {
   return (
     <footer className="bg-[#383838] py-10 md:px-0 px-4">
@@ -8,25 +8,22 @@ const Footer = () => {
           <FooterContact />
         </div>
         {/* Logo */}
+
         <div className="w-full md:w-1/3 flex flex-col items-center">
-          <Image
+          <img
             src="/fadas-logo-footer.webp"
-            width={300}
-            height={0}
             alt="Logo"
             priority={true}
-            className=" w-auto h-auto"
+            className="h-32"
           />
         </div>
         {/* TURSAB Logo */}
         <div className="md:w-1/3 flex flex-col items-center">
-          <Image
+          <img
             src="/tursab-logo-footer.webp"
-            width={250}
-            height={0}
             alt="Logo"
             priority={true}
-            className=" w-auto h-auto"
+            className="h-24"
           />
 
           <h2 className="font-extrabold text-2xl text-white">

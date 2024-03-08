@@ -1,9 +1,12 @@
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
+import { HiArrowCircleUp } from "react-icons/hi";
+import "aos/dist/aos.css";
 import "./globals.css";
 
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
-const inter = Inter({ subsets: ["latin"] });
+
+const poppins = Poppins({ subsets: ["latin"], weight: "200" });
 
 export const metadata = {
   title: "Create Next App",
@@ -13,10 +16,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${poppins.className} relative`}>
         <Navbar />
         <main>{children}</main>
+
         <Footer />
+
+        <a className="hidden md:block fixed right-0 bottom-16 " href="#swipe">
+          <HiArrowCircleUp className="text-[#FF2A3C] text-6xl" />
+        </a>
       </body>
     </html>
   );

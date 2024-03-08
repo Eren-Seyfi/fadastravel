@@ -1,22 +1,40 @@
-import Image from "next/image";
+"use client";
+import { useEffect, useRef } from "react";
 
 const TransitionEffectPicture = () => {
-  const imageList = [
-    "We-design-experiences-that-create-lifelong-memories.webp",
-    "Home-2-scaled.webp",
-    "",
-  ];
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+
+    const playVideo = () => {
+      if (video.paused) {
+        video.play();
+      }
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        video.pause();
+      } else {
+        playVideo();
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    playVideo(); // Videoyu ilk başta oynatmak için
+
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, []);
+
   return (
-    <>
-      <Image
-        src="/1920x1080.webp"
-        width={1920}
-        height={1080}
-        alt=""
-        priority={true}
-        className=" w-full h-full"
-      />
-    </>
+    <video ref={videoRef} className="w-full h-full" muted loop>
+      <source src="Untitleddesign.mp4" type="video/mp4" />
+    </video>
   );
 };
+
 export default TransitionEffectPicture;

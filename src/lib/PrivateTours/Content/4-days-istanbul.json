@@ -1,0 +1,100 @@
+[
+  {
+    "Headers": "4 DAYS ISTANBUL",
+    "Content": "Get to the heart of Istanbul’s culture and legacy on this premium trip. Stay in luxury accommodations in Old City with historic views. Enjoy guided tours of the Bosphorus, Sultan Ahmet, Topkapi Palace, Hagia Sophia and much more. Fall in love with Istanbul’s beauty on this 4 day journey."
+  },
+  [
+    {
+      "id": 1,
+      "title": "Day 1: Istanbul",
+      "list": [
+        "Arrive at Istanbul airport",
+        "Get on a VIP transfer from Istanbul Airport to your hotel",
+        "Have a smooth check-in at your luxury hotel",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Welcome appetizers at hotel"],
+      "IncludedActivity": [""],
+      "AddOnActivities": ["Turkish Bath (Hamam) – 50 euros / person"]
+    },
+    {
+      "id": 2,
+      "title": "Day 2: Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Join an Old City Walking Tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Old City Walking Tour"],
+      "AddOnActivities": [
+        "Private Dinner Cruise – 500 euros (up to 4 people)",
+        "Group Dinner Cruise – 90 euros / person"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Day 3: Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Join a Bosphorus Cruise Tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Old City Walking Tour"],
+      "AddOnActivities": [
+        "Mevlevi Ceremony – 50 euros / person",
+        "Professional Photo Shooting in Istanbul City – 300 euros"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Day 4: Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Get on a VIP transfer from your hotel to Istanbul airport",
+        "Depart to your next destination"
+      ],
+      "LuxuryAccomodations": ["Breakfast and Lunch"],
+      "IncludedMeals": [],
+      "IncludedActivity": [],
+      "AddOnActivities": []
+    }
+  ],
+  [
+    ["Garden House Hotel or similar"],
+    [
+      "All VIP Airport Transfers (Mercedes Vito)",
+      "Activity Transfers in Private Vehicle"
+    ],
+    ["Guided Istanbul Old City Walking Tour", "Bosphorus Cruise Tour"],
+    ["3 Breakfasts, 2 Lunches"],
+    [
+      [
+        { "Head": "Istanbul" },
+        [
+          "Private Dinner Cruise – 500 euros (up to 4 people)",
+          "Group Dinner Cruise – 90 euros / person",
+          "Mevlevi Ceremony – 50 euros / person",
+          "Turkish Bath (Hamam) – 60 euros / person",
+          "Professional Photo Shooting in Istanbul City – 300 euros"
+        ]
+      ]
+    ]
+  ],
+  [
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/1.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/2.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/3.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/4.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/5.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/6.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/7.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/8.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/9.webp",
+    "/PrivateToursPage/Carousel/4-DAYS-ISTANBUL/10.webp"
+  ]
+]

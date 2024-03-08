@@ -1,0 +1,241 @@
+[
+  {
+    "Headers": "11 DAYS TURKEY",
+    "Content": "Get on a 11-day journey to Turkey that reveals the beauties of Cappadocia, Antalya, and Istanbul. In Cappadocia, stay in our own luxurious hotel with fairy-chimney and hot air balloon views. Enjoy guided tours of the Göreme Open-Air Museum, take a local pottery lesson in Avanos, and savor the regional cuisine in a Turkish Dance Show. Then, fly to Antalya, where your trip continues by the Mediterranean Sea. Stay in luxury boutique accommodations in Antalya. During your guided tours, explore the ancient history of the city and the mineral-rich limestone pools of Pamukkale. Conclude your journey in the vibrant city of Istanbul. Stay in luxury accommodations in Old City and enjoy guided tours of the Bosphorus, Sultan Ahmet, Topkapi Palace, Hagia Sophia and much more. Fall in love with Turkey’s culture and beauty on this tour."
+  },
+  [
+    {
+      "id": 1,
+      "title": "Day 1: Cappadocia",
+      "list": [
+        "Arrive at Istanbul airport",
+        "Take a domestic flight from Istanbul to Cappadocia",
+        "Get on a VIP transfer from Cappadocia airport to your hotel",
+        "Have a smooth check-in at your luxury hotel",
+        "Choose between free time or an optional activity",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Mak’s Cave House or similar"],
+      "IncludedMeals": ["Welcome appetizers at hotel"],
+      "IncludedActivity": [],
+      "AddOnActivities": ["Turkish Bath (Hamam) – 50 euros / person"]
+    },
+    {
+      "id": 2,
+      "title": "Day 2: Cappadocia",
+      "list": [
+        "Join a Hot Air Balloon Tour (optional)",
+        "Enjoy breakfast at your hotel",
+        "Start a Cappadocia tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Mak’s Cave House or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Cappadocia Tour"],
+      "AddOnActivities": [
+        "Hot Air Balloon Tour – 250 euros / person",
+        "Sunset Jeep Safari – 40 euros / person"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Day 3: Cappadocia",
+      "list": [
+        "Join a Hot Air Balloon Tour (optional)",
+        "Choose between free time or an optional activity",
+        "Participate in a Turkish Night Show with dinner and unlimited drinks",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Mak’s Cave House or similar"],
+      "IncludedMeals": ["Breakfast and Dinner"],
+      "IncludedActivity": ["Turkish Night"],
+      "AddOnActivities": [
+        "Sunset ATV/QUAD – 40 euros / person",
+        "Sunset Horseback Riding – 40 euros / person",
+        "Professional Photo Shooting with Balloons and Landscape – 300 euros"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Day 4: Cappadocia to Antalya",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Get on a VIP transfer from your hotel to Cappadocia airport",
+        "Take a domestic flight from Cappadocia to Antalya",
+        "Board another VIP transfer from Antalya Airport to your hotel",
+        "Have a smooth check-in at your luxury hotel",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Akra Hotel or similar"],
+      "IncludedMeals": ["Breakfast"],
+      "IncludedActivity": [""],
+      "AddOnActivities": ["Turkish Bath (Hamam) – 50 euros / person"]
+    },
+    {
+      "id": 5,
+      "title": "Day 5: Antalya",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Start a full day Antalya Tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Akra Hotel or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Antalya Tour (Private)"],
+      "AddOnActivities": ["Boat Party at Night – 100 euros / person"]
+    },
+
+    {
+      "id": 6,
+      "title": "Day 6: Antalya",
+      "list": [
+        "Enjoy breakfast at your hote",
+        "Join a Pamukkale Tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Akra Hotel or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Pamukkale Tour"],
+      "AddOnActivities": ["Professional Photo Shooting in Antalya – 300 euros"]
+    },
+    {
+      "id": 7,
+      "title": "Day 7: Antalya to Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Get on a VIP transfer from your hotel to Antalya airport",
+        "Take a domestic flight from Antalya to Istanbul",
+        "Board another VIP transfer from Istanbul Airport to your hotel",
+        "Have a smooth check-in at your luxury hotel",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Breakfast"],
+      "IncludedActivity": [],
+      "AddOnActivities": ["Turkish Bath (Hamam) – 60 euros / person"]
+    },
+    {
+      "id": 8,
+      "title": "Day 8: Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Join an Old City Walking Tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Old City Walking Tour"],
+      "AddOnActivities": ["Private Dinner Cruise – 500 euros (up to 4 people)"]
+    },
+    {
+      "id": 9,
+      "title": "Day 9: Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Join a Bosphorus Cruise Tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Bosphorus Cruise Tour"],
+      "AddOnActivities": [
+        "Mevlevi Ceremony – 50 euros / person",
+        "Professional Photo Shooting in Istanbul City – 300 euros"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Day 10: Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Use freetime for shopping or resting",
+        "Have a Private Yacht Dinner in the Bosphorus (optional)",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Breakfast"],
+      "IncludedActivity": [],
+      "AddOnActivities": [
+        "Private Dinner Cruise – 500 euros (up to 4 people)",
+        "Group Dinner Cruise – 90 euros / person"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Day 11: Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Get on a VIP transfer from your hotel to Istanbul airport",
+        "Depart to your next destination"
+      ],
+      "LuxuryAccomodations": [""],
+      "IncludedMeals": [""],
+      "IncludedActivity": [""],
+      "AddOnActivities": [""]
+    }
+  ],
+  [
+    [
+      "Mak’s Cave House or similar (Cappadocia)",
+      "Garden House Hotel or similar (Istanbul)",
+      "Akra Hotel or similar (Antalya)"
+    ],
+    [
+      "All VIP Airport Transfers (Mercedes Vito)",
+      "Activity Transfers in Private Vehicle",
+      "All Domestic Flights between Istanbul, Cappadocia and Antalya"
+    ],
+    [
+      "Turkish Night Show with Dinner & Drinks",
+      "Guided Cappadocia Tour",
+      "Guided Istanbul Old City Walking Tour",
+      "Bosphorus Cruise Tour",
+      "Guided Antalya Tour",
+      "Guided Pamukkale Tour"
+    ],
+    ["10 Breakfasts, 5 Lunches, 1 Dinner"],
+    [
+      [
+        { "Head": "Cappadocia" },
+        [
+          "Hot Air Balloon Tour – please ask price",
+          "Sunset Jeep Safari – 40 euros / person",
+          "Sunset ATV/QUAD – 40 euros / person",
+          "Sunset Horseback Riding – 40 euros / person",
+          "Turkish Bath (Hamam) – 50 euros / person",
+          "Professional Photo Shooting with Balloons and Landscape – 300 euros"
+        ]
+      ],
+      [
+        { "Head": "Istanbul" },
+        [
+          "Private Dinner Cruise – 500 euros (up to 4 people)",
+          "Group Dinner Cruise – 90 euros / person",
+          "Mevlevi Ceremony – 50 euros / person",
+          "Turkish Bath (Hamam) – 60 euros / person",
+          "Professional Photo Shooting in Istanbul City – 300 euros"
+        ]
+      ],
+      [
+        { "Head": "Antalya" },
+        [
+          "Turkish Bath (Hamam) – 60 euros / person",
+          "Boat Party at Night – 100 euros / person",
+          "Professional Photo Shooting in Antalya – 300 euros"
+        ]
+      ]
+    ]
+  ],
+  [
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/1.webp",
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/2.webp",
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/3.webp",
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/4.webp",
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/5.webp",
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/6.webp",
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/7.webp",
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/8.webp",
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/9.webp",
+    "/PrivateToursPage/Carousel/11-DAYS-TURKEY/10.webp"
+  ]
+]

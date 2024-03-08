@@ -1,0 +1,45 @@
+.sliderAnimation {
+  width: 100%;
+  height: 90vh;
+  background-size: cover; /* Resimlerin arka planı kaplamasını sağlar */
+  background-position: center;
+  margin: auto;
+  animation: slide 120s infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-image: url("/Home/TransitionPicture/1.jpg");
+  }
+  10% {
+    background-image: url("/Home/TransitionPicture/1.jpg");
+  }
+  20% {
+    background-image: url("/Home/TransitionPicture/2.jpg");
+  }
+  30% {
+    background-image: url("/Home/TransitionPicture/3.jpg");
+  }
+  40% {
+    background-image: url("/Home/TransitionPicture/4.jpg");
+  }
+  50% {
+    background-image: url("/Home/TransitionPicture/5.jpg");
+  }
+  60% {
+    background-image: url("/Home/TransitionPicture/6.jpg");
+  }
+  70% {
+    background-image: url("/Home/TransitionPicture/7.jpg");
+  }
+  80% {
+    background-image: url("/Home/TransitionPicture/8.jpg");
+  }
+  90% {
+    background-image: url("/Home/TransitionPicture/9.jpg");
+  }
+  100% {
+    background-image: url("/Home/TransitionPicture/9.jpg");
+  }
+}
+

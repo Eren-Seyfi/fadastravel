@@ -8,7 +8,7 @@ const MenuButton = () => {
     const ul = document.getElementById("menu");
     useMenu
       ? (setMenu(false),
-        ul.classList.add("top-[80px]"),
+        ul.classList.add("top-[100px]"),
         ul.classList.add("opacity-100"))
       : (setMenu(true),
         ul.classList.remove("top-[80px]"),

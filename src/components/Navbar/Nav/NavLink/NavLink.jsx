@@ -6,12 +6,13 @@ const NavLink = ({ link }) => {
   return (
     <div className="w-full">
       <Link
+        target="_blank"
         href={link.path}
         className={`${
           pathname == link.path
-            ? " text-cyan-500"
-            : " hover:text-cyan-500 duration-500 text-gray-600"
-        } text-xl font-bold`}
+            ? " text-red-500"
+            : " hover:text-red-500 duration-500 text-gray-700"
+        } text-base font-bold font-poppins tracking-widest`}
       >
         {link.name}
       </Link>

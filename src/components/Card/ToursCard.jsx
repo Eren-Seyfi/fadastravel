@@ -1,32 +1,45 @@
-/* Tur Kartı */
-
+"use client";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+} from "@material-tailwind/react";
 import Link from "next/link";
-import Image from "next/image";
 const ToursCard = ({ props }) => {
   return (
-    <section
-      className=" lg:w-1/5 md:w-1/3 w-full border-2 rounded-t-xl 
-    hover:shadow-2xl hover:scale-105 transition hover:bg-black/15"
-    >
-      <Link href={props.link}>
-        <Image
-          src={props.src}
-          width={props.width}
-          height={props.height}
-          className="w-full h-full rounded-t-lg "
-          alt={props.head}
-          priority={true}
-        />
-        <div className="p-4">
-          <span className=" font-medium text-slate-500">Private Tour</span>
-          <h1 className=" font-semibold text-xl">{props.head}</h1>
-          <div className="text-end space-x-1 mt-8">
-            <span className="text-slate-500 text-base">from</span>
-            <span className="font-semibold text-xl">EUR {props.price}</span>
+    <Link href={props.Link} className="hover:scale-105 transition ">
+      <Card className="w-96 shadow-lg">
+        <CardHeader
+          floated={false}
+          shadow={false}
+          color="transparent"
+          className="m-0 rounded-none"
+        >
+          <img src={props.Image} alt={props.Headers} />
+        </CardHeader>
+        <CardBody>
+          <div className="mb-3 flex items-center justify-between">
+            <Typography variant="h6" color="gray" className="font-medium">
+              Private Tours
+            </Typography>
           </div>
-        </div>
-      </Link>
-    </section>
+          <Typography variant="h5" color="black">
+            {props.Headers}
+          </Typography>
+        </CardBody>
+        <CardFooter className="py-10">
+          <div className="text-end">
+            <span>From </span>
+            <span className="text-black font-bold text-xl">
+              {props.Currency}
+              {props.Price}
+            </span>
+          </div>
+        </CardFooter>
+      </Card>
+    </Link>
   );
 };
 export default ToursCard;

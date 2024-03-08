@@ -1,0 +1,174 @@
+[
+  {
+    "Headers": "7 DAYS CAPPADOCIA & ISTANBUL",
+    "Content": "Discover the best of Turkey on this 7-day journey that combines Cappadocia and Istanbul. Stay in our own luxury hotel in Cappadocia with fairy-chimney and hot air balloon views. Enjoy guided tours of the Göreme Open-Air Museum, take a local pottery lesson in Avanos, and savor the regional cuisine in a Turkish Dance Show. Then, fly off to Istanbul where you will rest in luxury accommodations in Old City. Enjoy guided tours of the Bosphorus, Sultan Ahmet, Topkapi Palace, Hagia Sophia and much more. Fall in love with Turkey’s culture and beauty on this tour."
+  },
+  [
+    {
+      "id": 1,
+      "title": "Day 1: Cappadocia",
+      "list": [
+        "Arrive at Istanbul airport",
+        "Take a domestic flight from Istanbul to Cappadocia",
+        "Get on a VIP transfer from Cappadocia airport to your hotel",
+        "Have a smooth check-in at your luxury hotel",
+        "Choose between free time or an optional activity",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Mak’s Cave House or similar"],
+      "IncludedMeals": ["Welcome appetizers at hotel"],
+      "IncludedActivity": [""],
+      "AddOnActivities": ["Turkish Bath (Hamam) - 50 euros / person"]
+    },
+    {
+      "id": 2,
+      "title": "Day 2: Cappadocia",
+      "list": [
+        "Join a Hot Air Balloon Tour (optional)",
+        "Enjoy breakfast at your hotel",
+        "Start a Cappadocia tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Mak’s Cave House or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Cappadocia Tour"],
+      "AddOnActivities": [
+        "Hot Air Balloon Tour – 250 euros / person",
+        "Sunset Jeep Safari – 40 euros / person"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Day 3: Cappadocia",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Choose between free time or an optional activity",
+        "Join a Turkish Night Show with dinner and unlimited drinks",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Mak’s Cave House or similar"],
+      "IncludedMeals": ["Breakfast and Dinner"],
+      "IncludedActivity": ["Turkish Night"],
+      "AddOnActivities": [
+        "Sunset ATV/QUAD – 40 euros / person",
+        "Sunset Horseback Riding – 40 euros / person",
+        "Professional Photo Shooting with Balloons and Landscape - 300 euros"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Day 4: Cappadocia & Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Get on a VIP transfer from your hotel to Cappadocia airport",
+        "Take a domestic flight from Cappadocia to Istanbul",
+        "Board another VIP transfer from Istanbul Airport to your hotel",
+        "Have a smooth check-in at your luxury hotel",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Breakfast"],
+      "IncludedActivity": [],
+      "AddOnActivities": ["Turkish Bath (Hamam) – 60 euros / person"]
+    },
+    {
+      "id": 5,
+      "title": "Day 5: Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Join an Old City Walking Tour with a professional guide & lunch",
+        "Rest in your luxury boutique hote"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Old City Walking Tour"],
+      "AddOnActivities": [
+        "Private Dinner Cruise – 500 euros (up to 4 people)",
+        "Group Dinner Cruise – 90 euros / person"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Day 6: Istanbul",
+
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Join a Bosphorus Cruise Tour with a professional guide & lunch",
+        "Rest in your luxury boutique hotel"
+      ],
+      "LuxuryAccomodations": ["Garden House Hotel or similar"],
+      "IncludedMeals": ["Breakfast and Lunch"],
+      "IncludedActivity": ["Guided Old City Walking Tour"],
+      "AddOnActivities": [
+        "Mevlevi Ceremony – 50 euros / person",
+        "Professional Photo Shooting in Istanbul City – 300 euros"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Day 7: Istanbul",
+      "list": [
+        "Enjoy breakfast at your hotel",
+        "Get on a VIP transfer from your hotel to Istanbul airport",
+        "Depart to your next destination"
+      ],
+      "LuxuryAccomodations": [],
+      "IncludedMeals": ["Breakfast"],
+      "IncludedActivity": [],
+      "AddOnActivities": []
+    }
+  ],
+  [
+    [
+      "Mak’s Cave House or similar (Cappadocia)",
+      "Garden House Hotel or similar (Istanbul)"
+    ],
+    [
+      "All VIP Airport Transfers (Mercedes Vito)",
+      "Activity Transfers in Private Vehicle",
+      "Domestic Flights from and to Cappadocia"
+    ],
+    [
+      "Turkish Night Show with Dinner & Drinks",
+      "Guided Cappadocia Tour",
+      "Guided Istanbul Old City Walking Tour",
+      "Bosphorus Cruise Tour"
+    ],
+    ["6 Breakfasts, 3 Lunches, 1 Dinner"],
+    [
+      [
+        { "Head": "Cappadocia" },
+        [
+          "Hot Air Balloon Tour – please ask price",
+          "Sunset Jeep Safari – 40 euros / person",
+          "Sunset ATV/QUAD – 40 euros / person",
+          "Sunset Horseback Riding – 40 euros / person",
+          "Turkish Bath (Hamam) – 50 euros / person",
+          "Professional Photo Shooting with Balloons and Landscape – 300 euros"
+        ]
+      ],
+      [
+        { "Head": "Istanbul" },
+        [
+          "Private Dinner Cruise – 500 euros (up to 4 people)",
+          "Group Dinner Cruise – 90 euros / person",
+          "Mevlevi Ceremony – 50 euros / person",
+          "Turkish Bath (Hamam) – 60 euros / perso",
+          "Professional Photo Shooting in Istanbul City – 300 euros"
+        ]
+      ]
+    ]
+  ],
+  [
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/1.webp",
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/2.webp",
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/3.webp",
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/4.webp",
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/5.webp",
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/6.webp",
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/7.webp",
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/8.webp",
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/9.webp",
+    "/PrivateToursPage/Carousel/7-DAYS-CAPPADOCIA-ISTANBUL/10.webp"
+  ]
+]

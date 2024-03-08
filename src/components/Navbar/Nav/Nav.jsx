@@ -1,37 +1,19 @@
 import NavLink from "./NavLink/NavLink";
-
+import Link from "next/link";
 import MenuButton from "./MenuButton/MenuButton";
-const Nav = () => {
-  const links = [
-    {
-      name: "Home",
-      path: "/",
-    },
-    {
-      name: "Who We Are",
-      path: "/whoweare",
-    },
-    {
-      name: "Private Tours",
-      path: "/privatetours",
-    },
-    {
-      name: "Partner With Us",
-      path: "/partnerwithus",
-    },
-    {
-      name: "Contact",
-      path: "/contact",
-    },
-  ];
+import { getDataNavbar } from "@/lib/getdata";
+const Nav = async () => {
+  const links = await getDataNavbar();
   return (
-    <div className=" md:flex md:items-center md:justify-between">
+    <div className="md:flex md:items-center md:justify-between ">
       <div className="flex items-center justify-between md:px-0 px-4 ">
-        <img
-          src="https://fadastravel.com/wp-content/uploads/2023/06/fadas-logo.png"
-          alt="Logo"
-          className=" cursor-pointer w-40 inline"
-        />
+        <Link href="/">
+          <img
+            src="https://fadastravel.com/wp-content/uploads/2023/06/fadas-logo.png"
+            alt="Logo"
+            className=" cursor-pointer w-40 inline"
+          />
+        </Link>
         <MenuButton />
       </div>
       <ul

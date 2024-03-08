@@ -1,4 +1,3 @@
-import Image from "next/image";
 /* Dikey Kart */
 /* {
   id: 3,
@@ -10,17 +9,17 @@ import Image from "next/image";
 const VerticalCard = ({ props }) => {
   return (
     <section className="flex flex-col justify-center items-center h-full w-96 gap-4">
-      <Image
+      <img
         src={props.src}
         width={400}
         height={400}
         className="rounded-3xl h-72"
         alt=""
       />
-      <span className=" rounded-full bg-blue-500/95 px-2.5 py-1 text-center">
-        <h1 className="font-bold text-lg text-white">{props.head}</h1>
+      <span className=" rounded-full bg-blue-500/95 px-7 py-1 text-center">
+        <h1 className="font-bold text-base text-white">{props.head}</h1>
       </span>
-      <span className="text-slate-600">{props.content}</span>
+      <span className="text-slate-600 text-justify">{props.content}</span>
     </section>
   );
 };
