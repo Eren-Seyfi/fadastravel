@@ -6,11 +6,10 @@ import ToursCarousel from "@/components/MinikAyaklar/Carousel";
 
 const PrivateToursPage = ({ params }) => {
   const DataContent = [
-    "/MinikAyaklar/1.jpg",
+    "/MinikAyaklar/1.jpeg",
     "/MinikAyaklar/2.jpg",
     "/MinikAyaklar/3.jpg",
     "/MinikAyaklar/4.jpg",
-    "/MinikAyaklar/5.jpg",
     "/MinikAyaklar/6.jpg",
     "/MinikAyaklar/7.jpg",
     "/MinikAyaklar/8.jpg",
@@ -22,6 +21,7 @@ const PrivateToursPage = ({ params }) => {
     "/MinikAyaklar/14.jpg",
     "/MinikAyaklar/15.jpg",
     "/MinikAyaklar/16.jpg",
+    "/MinikAyaklar/17.jpg",
   ];
 
   return (
@@ -34,7 +34,6 @@ const PrivateToursPage = ({ params }) => {
               Minik ayaklar Kapadokya’da / 20-22 Nisan 2024
             </h1>
             <p className="p-4 text-justify space-y-10">
-              
               <p>
                 İlkini sonbaharda yaptığımız Minik Ayaklar Kapadokya’da kampının
                 bu ilkbaharda tekrarı için gün sayıyoruz 🤗 Kapadokya’da hem
