@@ -11,9 +11,14 @@
     "name": "Private Tours",
     "path": "/privatetours"
   },
+
   {
     "name": "Custom Tours",
     "path": "/activityguideform/customitinerary"
+  },
+  {
+    "name": "Minik Ayaklar",
+    "path": "/minikayaklar"
   },
   {
     "name": "Partner With Us",

@@ -78,7 +78,7 @@ const PhoneNumber = ({ props }) => {
         type="tel"
         name="phone"
         required={props.required}
-        placeholder="Mobile Number"
+        placeholder="Telefon Numarası"
         className="rounded-l-none !border-t-blue-gray-200 focus:!border-t-gray-900"
         labelProps={{
           className: "before:content-none after:content-none",
