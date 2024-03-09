@@ -13,13 +13,12 @@ export async function POST(req) {
       Country,
       NumberOfAdults,
       NumberOfInfant,
-      NumberOfKids,
       NumberOfRooms,
     } = data;
 
     const mailOptions = {
       from: "fadastourism@gmail.com",
-      to: "info@fadastravel.com ",
+      to: "info@fadastravel.com",
       subject: TurName,
       html: `
         <p>Tur Name: ${TurName}</p>
