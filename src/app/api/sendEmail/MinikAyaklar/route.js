@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import transporterMail from "../mail";
-
+import nodemailer from "nodemailer";
 export async function POST(req) {
   try {
     const data = await req.json();
@@ -15,6 +15,17 @@ export async function POST(req) {
       NumberOfInfant,
       NumberOfRooms,
     } = data;
+
+    const transporterMailMinikAyaklar = nodemailer.createTransport({
+      host: "smtp.gmail.com",
+      service: "gmail",
+      port: 465,
+      secure: true,
+      auth: {
+        user: "fadastourism@gmail.com",
+        pass: "lqec lnss qctk tqza",
+      },
+    });
 
     const mailOptions = {
       from: "fadastourism@gmail.com",
@@ -31,7 +42,7 @@ export async function POST(req) {
         <p>Email: ${Email}</p>
       `,
     };
-
+    await transporterMailMinikAyaklar.sendMail(mailOptions);
     await transporterMail.sendMail(mailOptions);
 
     return NextResponse.json(

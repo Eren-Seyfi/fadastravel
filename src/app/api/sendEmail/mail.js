@@ -9,4 +9,5 @@ const transporterMail = nodemailer.createTransport({
     pass: "lqec lnss qctk tqza",
   },
 });
+
 export default transporterMail;
