@@ -148,7 +148,7 @@ const PrivateToursPage = ({ params }) => {
 
                 <ul className="space-y-2">
                   <li>- 2 yetişkin 1 çocuk 29.000₺</li>
-                  <li>- 2 yetişkin 2 çocuk 32.000₺</li>
+                  <li>- 2 yetişkin 2 çocuk 34.000₺</li>
                   <li>- 1 yetişkin 1 çocuk 26.000₺</li>
                   <li>- 1 yetişkin 2 çocuk 29.000₺</li>
                 </ul>
