@@ -9,9 +9,9 @@ const Nav = async () => {
       <div className="flex items-center justify-between md:px-0 px-4 ">
         <Link href="/">
           <img
-            src="https://fadastravel.com/wp-content/uploads/2023/06/fadas-logo.png"
+            src="navbarLogo.jpg"
             alt="Logo"
-            className=" cursor-pointer w-40 inline"
+            className=" cursor-pointer w-44 inline"
           />
         </Link>
         <MenuButton />
